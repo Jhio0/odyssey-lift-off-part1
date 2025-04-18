@@ -18,7 +18,7 @@ const QueryResult = ({ loading, error, data, children }) => {
     );
   }
   if (!data) {
-    return <p>Nothing to show...</p>;
+    return <p>Nothing to show...Hello Wolrd</p>;
   }
   if (data) {
     return children;
